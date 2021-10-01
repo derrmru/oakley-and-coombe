@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "oakley-and-coombe",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "Website for Oakley & Coombe",
   "version": "0.1.0",
   "license": "0BSD",
   "scripts": {
@@ -14,9 +14,18 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
+    "autoprefixer": "^10.3.6",
     "gatsby": "^4.0.0-zz-next.1",
+    "gatsby-image": "^3.12.0-next.0",
+    "gatsby-plugin-image": "^2.0.0-zz-next.1",
+    "gatsby-plugin-postcss": "^5.0.0-zz-next.1",
+    "gatsby-plugin-sharp": "^4.0.0-zz-next.1",
+    "gatsby-source-filesystem": "^4.0.0-zz-next.1",
+    "gatsby-transformer-sharp": "^4.0.0-zz-next.1",
+    "postcss": "^8.3.8",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "tailwindcss": "^2.2.16"
   },
   "devDependencies": {
     "prettier": "2.3.2"

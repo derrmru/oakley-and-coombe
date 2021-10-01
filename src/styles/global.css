@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply font-mono bg-gray-800 text-yellow-50 text-center;
+  }
+  a {
+    @apply transition duration-500 hover:text-indigo-400 cursor-pointer;
+  }
+  h1 {
+    @apply text-4xl my-5;
+  }
+  h2 {
+    @apply text-3xl my-3;
+  }
+  h3 {
+    @apply text-2xl my-2;
+  }
+  h4 {
+    @apply text-xl my-2;
+  }
+  p {
+    @apply text-sm md:text-base;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+.action1 {
+  @apply text-xs xl:text-lg text-center bg-gradient-to-r from-pink-800 to-indigo-800 py-3 px-5 xl:px-10 rounded-full transition duration-500 ease-in-out hover:text-white hover:from-indigo-300;
+}
