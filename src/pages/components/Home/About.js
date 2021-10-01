@@ -14,12 +14,12 @@ const About = () => {
                 <p className="py-5 w-5/6 lg:w-1/2 mx-auto">Maximize your business potential with performant websites built with the latest, innovative technologies.</p>
             </div>
             <div className="w-full lg:w-1/2">
-                <div className="w-5/6 mx-auto rounded-2xl pt-0 md:pt-10 pb-0 md:pb-32 bg-gradient-to-b from-indigo-800 via-pink-800 to-transparent">
+                <div className="w-5/6 mx-auto rounded-2xl pt-0 md:pt-10 pb-10 md:pb-32 bg-gradient-to-b from-indigo-800 via-pink-800 to-transparent">
                     <img src={image} alt="" className="mb-20 md:mb-0 w-5/6 md:w-1/2 mx-auto svg" />
                 </div>
             </div>
             <div className="w-11/12 mx-auto py-0 pl-5 pr-10 lg:w-1/2 text-left">
-                <h3>Jamstack</h3>
+                <h3 className="text-center my-10 md:my-0 md:text-left">Jamstack</h3>
                 <div className={style.pointBox}>
                     <img src={speed} alt="" className={style.icon} />
                     <div>
