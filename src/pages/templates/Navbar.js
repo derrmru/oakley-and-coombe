@@ -18,7 +18,7 @@ const Navbar = () => {
                         return <Link
                             key={'navItem' + i}
                             to={item[1]}
-                            className="flex-1 cursor-pointer"
+                            className="text-left md:text-center flex-1 cursor-pointer"
                         >
                             <li>{item[0]}</li>
                         </Link>
