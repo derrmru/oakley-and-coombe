@@ -7,3 +7,4 @@ Initial proposal for O & C
 - [Gatsby Js](https://www.gatsbyjs.com/)
 - [React Js](https://reactjs.org/)
 - [Tailwind](https://tailwindcss.com/)
+- [Auth0](https://auth0.com/)
