@@ -11,7 +11,7 @@ const Headline = () => {
                 <div className=" w-full lg:w-7/12 action1 mt-10 lg:my-10 cursor-pointer"><Link to="/contact">Request Our Services</Link></div>
             </div>
             <div className="w-full lg:w-1/2 text-center bg-pink-800 py-10 lg:py-20 rounded-full backdrop-filter backdrop-blur-lg">
-                <StaticImage src="../../../images/Services.svg" placeholder="blurred" objectFit="cover" />
+                <StaticImage src="../../images/Services.svg" placeholder="blurred" objectFit="cover" />
             </div>
 
         </div>
