@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Login from './components/Client/Login'
 import Logout from './components/Client/Logout'
 import PrivateRoute from './components/PrivateRoute'
@@ -16,11 +16,16 @@ const Client = () => {
         return null
     }
 
+    let url;
+    useEffect(() => {
+        url = window.location.origin;
+    }, [])
+
     return (
         <Auth0Provider
             domain={process.env.GATSBY_OAUTH_DOMAIN}
             clientId={process.env.GATSBY_OAUTH_CLIENT_ID}
-            redirectUri={window.location.origin + '/client/dashboard'}
+            redirectUri={url + '/client/dashboard'}
         >
             <Router>
                 <Login path="/client/login" />
