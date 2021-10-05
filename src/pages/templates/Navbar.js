@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 
 const Navbar = () => {
     return (
-        <div className="flex w-full py-10 fixed bg-gray-800 bg-opacity-90 backdrop-filter backdrop-blur-md text-xs md:text-base">
+        <div className="flex w-full py-10 fixed z-10 bg-gray-800 bg-opacity-90 backdrop-filter backdrop-blur-md text-xs md:text-base">
             <div className="w-5/12 md:w-1/4">
                 <Link
                     className="action1 text-xs md:text-base w-full md:w-1/2 mx-auto"
@@ -27,7 +27,7 @@ const Navbar = () => {
             </ol>
             <Link
                 className="w-0 hidden md:inline md:w-1/4 cursor-pointer"
-                to="/login"
+                to="/client/login"
             >
                 Client Zone
             </Link>

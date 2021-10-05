@@ -6,6 +6,9 @@
 
 module.exports = {
   /* Your site config here */
+  siteMetadata: {
+    title: 'Oakley & Coombe'
+  },
   plugins: [
     `gatsby-plugin-postcss`,
     `gatsby-transformer-sharp`,
@@ -14,6 +17,7 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
+        name: `images`,
         path: `${__dirname}/src/images`,
       },
     },
