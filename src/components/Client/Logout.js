@@ -1,13 +1,11 @@
 import React, { useEffect } from 'react'
 import { useAuth0 } from '@auth0/auth0-react'
-import { navigate } from 'gatsby'
 
 const Logout = () => {
     const { logout } = useAuth0()
     useEffect(() => {
-        logout()
-        navigate('/client/login')
-        return null
+        let redirect = window.location.hostname !== 'localhost' ? 'https://https://oakleyandcoombemain.gatsbyjs.io/client/login' : 'http://localhost:8000/client/login'
+        if (redirect) logout({ returnTo: redirect })
     })
     return (
         <div>Logging Out...</div>
