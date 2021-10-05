@@ -1,9 +1,9 @@
 import React from 'react'
-import image from '../../../images/Speed.svg'
-import speed from '../../../images/SpeedIcon.svg'
-import distributed from '../../../images/DistributedIcon.svg'
-import secure from '../../../images/SecureIcon.svg'
-import scalable from '../../../images/ScalabilityIcon.svg'
+import image from '../../images/Speed.svg'
+import speed from '../../images/SpeedIcon.svg'
+import distributed from '../../images/DistributedIcon.svg'
+import secure from '../../images/SecureIcon.svg'
+import scalable from '../../images/ScalabilityIcon.svg'
 import * as style from './About.module.css'
 
 const About = () => {

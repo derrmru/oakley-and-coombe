@@ -1,5 +1,5 @@
 import React from 'react'
-import mem from '../../../images/Memory.gif'
+import mem from '../../images/Memory.gif'
 import { Link } from 'gatsby'
 
 const Banner = () => {

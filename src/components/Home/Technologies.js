@@ -1,11 +1,11 @@
 import React from 'react'
-import contentful from '../../../images/technology/contentful.svg'
-import firebase from '../../../images/technology/firebase.svg'
-import gats from '../../../images/technology/gatsby.svg'
-import netlify from '../../../images/technology/netlify.svg'
-import nextjs from '../../../images/technology/nextjs.svg'
-import vercel from '../../../images/technology/vercel.svg'
-import wordpress from '../../../images/technology/wordpress.svg'
+import contentful from '../../images/technology/contentful.svg'
+import firebase from '../../images/technology/firebase.svg'
+import gats from '../../images/technology/gatsby.svg'
+import netlify from '../../images/technology/netlify.svg'
+import nextjs from '../../images/technology/nextjs.svg'
+import vercel from '../../images/technology/vercel.svg'
+import wordpress from '../../images/technology/wordpress.svg'
 import * as style from './Technologies.module.css'
 
 const Technologies = () => {

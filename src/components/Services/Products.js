@@ -1,5 +1,5 @@
 import React from 'react'
-import PWA from '../../../images/services/PWA.svg'
+import PWA from '../../images/services/PWA.svg'
 import * as style from './Products.module.css'
 
 const products = [

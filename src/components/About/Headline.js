@@ -10,7 +10,7 @@ const Headline = () => {
                 <div className="px-0 lg:px-20"><Link to='/services' className="action1">See Our Services</Link></div>
             </div>
             <div className="hidden lg:inline w-full lg:w-1/2">
-                <StaticImage src="../../../images/About.svg" placeholder="blurred" />
+                <StaticImage src="../../images/About.svg" placeholder="blurred" />
             </div>
         </div>
     )
