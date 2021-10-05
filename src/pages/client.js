@@ -20,7 +20,7 @@ const Client = () => {
         <Auth0Provider
             domain={process.env.GATSBY_OAUTH_DOMAIN}
             clientId={process.env.GATSBY_OAUTH_CLIENT_ID}
-            redirectUri='http://localhost:8000/client/dashboard'
+            redirectUri={window.location.origin + '/client/dashboard'}
         >
             <Router>
                 <Login path="/client/login" />
